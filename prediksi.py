@@ -1,3 +1,4 @@
+import os
 import torch
 import numpy as np
 from torchvision import models, transforms
@@ -13,7 +14,8 @@ model.classifier = nn.Linear(num_ftrs, 7)
 mean = np.array([0.5, 0.5, 0.5])
 std = np.array([0.25, 0.25, 0.25])
 
-PATH = "D:\Smt7\Skripsi\demo\modd.pth"
+current_dir = os.getcwd()
+PATH = os.path.join(current_dir, "modd.pth")
 
 device = torch.device("cpu")
 mod = model
