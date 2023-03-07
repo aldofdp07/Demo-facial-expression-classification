@@ -126,4 +126,5 @@ def show(file_name):
             hasil = classes[labels]
             st.write('predicted', hasil)
             
-if __name__ == "__main__"
+if __name__ == "__main__":
+  show("style.css")
