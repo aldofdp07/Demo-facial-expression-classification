@@ -1,4 +1,4 @@
 streamlit==1.16.0
 numpy==1.23.1
-torch==1.11.0
-Image==9.2.0
+pytorch==1.11.0
+Pillow==9.2.0
