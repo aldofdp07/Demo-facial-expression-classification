@@ -127,5 +127,4 @@ def show(file_name):
             st.write('predicted', hasil)
             
 if __name__ == "__main__":
-    #st.beta_set_page_config(page_title='Facial emotion Recognition', page_icon='https://www.google.com/url?sa=i&url=https%3A%2F%2Fid.m.wikipedia.org%2Fwiki%2FBerkas%3ALogo_Universitas_Brawijaya.svg&psig=AOvVaw0y34shl4uYh5IA6ziBsXyq&ust=1672144783278000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOi48fCml_wCFQAAAAAdAAAAABAE')
-    #show("style.css")
+  
