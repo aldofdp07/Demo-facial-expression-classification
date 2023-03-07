@@ -127,4 +127,3 @@ def show(file_name):
             st.write('predicted', hasil)
             
 if __name__ == "__main__":
-  
