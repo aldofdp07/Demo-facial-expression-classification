@@ -1,5 +1,6 @@
 streamlit==1.16.0
 numpy==1.23.1
 torch==1.11.0+cpu
+torchvision
 Pillow
 time
