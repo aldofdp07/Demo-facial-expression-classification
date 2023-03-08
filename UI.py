@@ -94,7 +94,7 @@ def show(file_name):
         st.write("")
         
         # Menambahkan gambar dari file lokal
-        pa = os.path.join(current_dir, "s.png")
+        pa = os.path.join(current_dir, "sss.png")
         image = Image.open(pa)
         st.image(image, caption='Contoh Ekspresi')
 
