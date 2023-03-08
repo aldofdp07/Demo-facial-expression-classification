@@ -97,11 +97,6 @@ def show(file_name):
         pa = os.path.join(current_dir, "sss.png")
         image = Image.open(pa)
         st.image(image, caption='Contoh Ekspresi')
-
-        # Menambahkan gambar dengan ukuran kustom
-        st.image(image, width=300, caption='Contoh Ekspresi')
-        st.image(image, height=200, caption='Contoh Ekspresi')
-        st.image(image, width=500, height=500, caption='Contoh Ekspresi')
         
         file_up = st.file_uploader("Upload an image")
         file_Cam = st.camera_input("take picture")
